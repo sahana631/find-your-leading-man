@@ -1,0 +1,36 @@
+:root {
+  --wine: #5c1f35;
+  --wine-deep: #3e1224;
+  --gold: #c9a24b;
+  --gold-bright: #e0bc6b;
+  --blush: #f2d9de;
+  --ivory: #fbf7f0;
+  --ink: #241a1f;
+  --sage: #7c8c6b;
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Karla", -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--wine-deep);
+  font-family: var(--sans);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
